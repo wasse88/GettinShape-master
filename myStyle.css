@@ -1,0 +1,36 @@
+
+    .s0 {         
+    margin-top: 100px;
+    float: left;            
+    border:2px solid rgba(250, 5, 5, 0.884);     
+    margin-left: 100px;
+    } 
+
+    .s1 { 
+    padding: 80px;
+    float: left;            
+    height: 698px;  
+    } 
+
+    .s2 { 
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 50px;
+    float: left;
+    border:2px solid green;       
+    height: 500px;  
+    }
+
+    .imagesDiv { 
+    padding: 80px;
+    float: left;
+    } 
+
+
+
+    img {
+        width:290px;
+        height:400px;
+    }
+
+
