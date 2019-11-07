@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gettin (In) Shape</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <script src="myScript.js"></script>
+
+
+</head>
+<body>  
+    <div class="s1">
+    <h1>My Program</h1>
+    <br/>  
+    <Label>Select Program</Label><br/>
+    <select  id="program" name="program">
+        <option value="0">Choose</option>
+        <option value="1">Full Boody</option>
+        <option value="1">A</option>
+        <option value="2">B</option>
+    </select><br/><br/> 
+
+    <Label>Select Machine</Label><br/>
+    <select id="machine" name="machine">
+        <option value="0">Choose</option>
+        <option value="1">Pull Top Poly</option>
+        <option value="2">Rowing Right - Weights</option>
+        <option value="3">Rowing Left - Weights</option>
+        <option value="4">Chest Pressure - Weights</option>
+        <option value="5">Lying Butterfly - Weights</option>
+        <option value="6">Leg Pressure</option>
+        <option value="7">Kneeling</option>
+        <option value="8">Shoulders Pressure</option>  
+        <option value="9">Shoulders Away</option>
+        <option value="10">Front Hand - Weights</option>
+        <option value="11">Back Hand - Weights</option>
+    </select><br/><br/>
+
+    <Label>Weights</Label><br/>
+    <input type="number" id="weights" name="weights"><br/><br/>
+
+    <Label>Sets</Label><br/>
+    <input type="number" id="stes" name="stes"><br/><br/>
+
+    <Label>Number Of Return</Label><br/>
+    <input type="number" id="return" name="return"><br/><br/>
+
+    <Label>Time</Label><br/>
+    <input type="number" id="return" name="return"><br/><br/>        
+    
+    <button onclick="myFunction()">Submit</button>
+</div>   
+
+ 
+    <div class="imagesDiv">
+            <img src="https://st.depositphotos.com/1726139/3079/i/950/depositphotos_30799743-stock-photo-black-bodybuilder-training-with-dumbbells.jpg" alt="w2b" >
+    </div>
+
+  
+
+    <!-- script init section -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        $.noConflict();
+    </script>
+</body>
+
+</html>
