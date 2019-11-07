@@ -5,6 +5,10 @@ $('form').on('submit',(e=>{
 }));
 
 function myFunction(){
+    window.location.replace("file:///C:/Users/Avi/Desktop/Development/GettinShape-master/programs.html")
+} 
+
+function myFunction1(){
     var firstName = document.getElementById("fname").value;     
     document.getElementById("fn").innerHTML = firstName;
 
@@ -17,11 +21,10 @@ function myFunction(){
     var pro1 = document.getElementById("program").value = program.options[program.selectedIndex].text;     
     document.getElementById("pro2").innerHTML = pro1;
 debugger
-    window.location.replace("//GettinShape-master/result.html")
+    window.location.replace("file:///C:/Users/Avi/Desktop/Development/GettinShape-master/result.html")
 } 
 
-
-function myFunction1(){
-
+function myFunction2(){
+    window.location.replace("file:///C:/Users/Avi/Desktop/Development/GettinShape-master/index.html")
 } 
 
